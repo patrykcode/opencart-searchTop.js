@@ -2,12 +2,12 @@
 
 
 
-``
+```
 'index.php?route=product/search/ajax'
-``
-# Usage
+```
+### Usage
 
-``
+```
 $(document).ready(function () {
   $(ST.searchInput).on('keyup', function (e) {
     setTimeout(function () {
@@ -29,4 +29,4 @@ $(document).ready(function () {
     }
   })
 })
-``
+```
